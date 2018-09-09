@@ -40,7 +40,12 @@ in html
                 <figure id="me">
                     <img src="img/IMG_0906.JPG">
                 </figure>
-                
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+               
                 <div id="welcomeText">
                     <p>Hello!</p>
                     <p>Thank you for visiting my very first portfolio website.</p>
