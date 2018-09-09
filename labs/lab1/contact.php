@@ -36,7 +36,8 @@ in html
             <a href= "about.php"> About </a>
             <a class= "current" href= "contact.php"> Contact </a>
         </nav>
-       
+        <br />
+        <br />
         <div id="content">
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfKA0h6WTn0xME3HlWzA4c28saYUIWHBdt41m7ro6S6JFbHVQ/viewform?embedded=true" width="640" height="887" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
         </div>

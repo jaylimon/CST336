@@ -33,7 +33,8 @@ in html
             <a class= "current" href= "about.php"> About </a>
             <a href= "contact.php"> Contact </a>
         </nav>
-        
+        <br />
+        <br />
         <div id "content">
             <table>
                 <tr id="table-header">
