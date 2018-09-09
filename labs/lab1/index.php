@@ -28,10 +28,12 @@ in html
          
         <nav>
             <hr width= "50%">
-            <a href= "index.php"> Home </a>
+            <a class="current" href= "index.php"> Home </a>
             <a href= "about.php"> About </a>
             <a href= "contact.php"> Contact </a>
+            
         </nav>
+        
         
         <main>
                 
@@ -54,6 +56,7 @@ in html
                 CST 336. 2018&copy; Limon<br />
                 <strong>Disclaimer:</strong> The information in this webpage is fake. <br />
                 <img src= "img/csumb.jpg">
+                <img src= "img/buddy.png">
         </footer>
         <!-- closing footer -->
         

@@ -18,6 +18,11 @@ nav a{
     text-decoration: none;
 }
 
+nav .current{
+    background-color: lavenderBlush;
+}
+
+
 nav a:hover {
     border-bottom:2px solid purple;
     font-size: 2em;
