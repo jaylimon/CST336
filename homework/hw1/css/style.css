@@ -1,0 +1,61 @@
+body{
+    background-color: #1F8865;
+    color: black;
+}
+header, main, nav, footer{
+    text-align: center;
+}
+#lan1 {
+  padding-left: 20%;
+  float: left;
+}
+#lan3{
+    text-align: center;
+}
+#py1
+{    
+    padding-left: 5%;
+    float: left;
+}
+#py2
+{
+    text-align: center;
+}
+nav a{
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+}
+nav .current{
+    background-color: DarkSeaGreen ;
+}
+nav a:hover {
+    border-bottom:2px solid green;
+    font-size: 2em;
+    transition: .9s;
+}
+#jav1, #jav2
+{
+    padding-left: 3%;
+}
+#c1
+{    
+    padding-left: 1%;
+    float: left;
+}
+#c2
+{
+    text-align: center;
+}
+.one, .two, .thr, .four, .five, .six, .seven{
+    border-style: solid;
+    border-width: 5px;
+    border-color: DarkSeaGreen;
+}
+#title
+{
+    font-size: 3em;
+    text-shadow: 2px 2px #91E296;
+} 
