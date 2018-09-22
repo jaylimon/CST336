@@ -19,4 +19,7 @@
         </div>
         
     </body>
+        <footer id= "badge">
+            <img src= "img/buddy.png">
+        </footer>
 </html>

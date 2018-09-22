@@ -64,4 +64,9 @@
         width:600px;
         margin:0 auto;
         padding-top:10px;
+    
+    }
+    #badge
+    {
+        text-align: center;
     }
