@@ -2,7 +2,10 @@
 
 function displayTrain(){
             
-    $train= array('1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg','8.jpg',);
+    $train= array('Steam Train'=> '1.jpg' , 'Steam Train' => '2.jpg', 'Steam Train' => '3.jpg', 
+    'Freight Train' => '4.jpg', 'Freight Train' => '5.jpg','Freight Train' => '6.jpg', 
+    'Diesel Train' => '7.jpg','Diesel Train' => '8.jpg','Diesel Train' => '9.jpg');
+
     shuffle($train);
     $steam= 0;
     $freight=0;
@@ -28,14 +31,14 @@ function displayTrain(){
         echo "</div>";
 
 }
+
 function steamFacts() {
     $a=array("Thomas Savery built the first steam engine in 1698. ", 
     "The fastest steam train was the A4 'Mallard' 4-6-2 and could reach 125 or 126 mph.", 
     "Steam trains were first built (in the early 1800s) to carry goods and materials.", 
     "The 4-8-8-4 Union Pacific Big Boys were the largest steam train ever built.", 
     "Steam trains get their power by burning coal in a firebox.", 
-    "It takes about three hours for the crew to get up enough steam to get a locomotive moving.",
-    "James loves Steam Trains.");
+    "It takes about three hours for the crew to get up enough steam to get a locomotive moving.");
     
     $ranFacts=array_rand($a,2);
     echo "Steam Train: " . $a[$ranFacts[0]]."<br>";

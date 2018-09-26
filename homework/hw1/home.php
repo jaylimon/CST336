@@ -36,8 +36,6 @@ in html
             <a href= "python.php"> Python</a>
             
         </nav>
-        
-        
         <main>
                 <div id= "lan1">
                     <h4>Programming Languages</h4>

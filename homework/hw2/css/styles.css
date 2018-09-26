@@ -9,8 +9,8 @@ header{
 
 }
 body {
-    background-color: #CCBE28;/*#FFC300, #D7CB4E*/
     color: white;
+    background-color: #CCBE28;
         
 }
 input{
@@ -22,6 +22,7 @@ input{
     /*outline:none; /*hides button outline when clicking on it*/
     /*font-weight:bold;*/
     color:red;
+    background-color: white; 
     cursor:pointer;
     }
 #fact
@@ -33,9 +34,9 @@ input{
 #cho{
     text-align: center;
 }
-#game{
+#game, #buddy{
     text-align: center;
-    color: red;
+    color: #544E14;
 }
 hr{
     background-color: red;
