@@ -1,0 +1,45 @@
+#main{
+    text-align: center;
+}
+header{
+    text-align: center; 
+    font-size:2em;
+    border: 8px solid red;
+    border-radius: 1px;
+
+}
+body {
+    background-color: #CCBE28;/*#FFC300, #D7CB4E*/
+    color: white;
+        
+}
+input{
+
+    text-align: center;
+    font-size:1.3em;
+    /*background-color: Transparent;*/
+    border: double;
+    /*outline:none; /*hides button outline when clicking on it*/
+    /*font-weight:bold;*/
+    color:red;
+    cursor:pointer;
+    }
+#fact
+{
+    text-align: center;
+    color: #544E14;
+    font-weight: bold;
+}
+#cho{
+    text-align: center;
+}
+#game{
+    text-align: center;
+    color: red;
+}
+hr{
+    background-color: red;
+}
+small{
+    font-weight: bold;
+}
