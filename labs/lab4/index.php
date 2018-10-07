@@ -4,7 +4,7 @@ if (isset($_GET["keyword"])){//check if form was submitted
     include "api/pixabayAPI.php";
     $keyword= $_GET["keyword"];
     echo "You searched for: $keyword";
-    echo "Layout: " .$_GET["layout"];
+    echo " Layout: " .$_GET["layout"];
     $imageURLs= getImageURLs($keyword, $_GET["layout"]);
     
     shuffle($imageURLs);
