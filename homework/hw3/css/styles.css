@@ -1,0 +1,18 @@
+body{
+    text-align:center;
+    background-image:url("../img/flag2.jpg");
+    color: #4A4B50;
+}
+#congrats{
+    color: #41436E;
+    text-shadow: 2px 2px #90251E;
+}
+#sorry{
+    color: #A62831;
+}
+h2, h4{
+    color: #A62831;
+}
+head{
+    color: #000000;
+}
