@@ -2,10 +2,10 @@
 
 function startConnection($dbname="ottermart") {
     //Creating database connection
-    $host = "localhost";
+    $host = "us-cdbr-iron-east-01.cleardb.net";
 //  $dbname = "ottermart";
-    $username = "root";
-    $password = "";
+    $username = "bb092d0f2db1ff";
+    $password = "77f97df8";
     
     if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
         $url = parse_url(getenv("mysql://bb092d0f2db1ff:77f97df8@us-cdbr-iron-east-01.cleardb.net/heroku_dddcf515622bfb0?reconnect=true"));
