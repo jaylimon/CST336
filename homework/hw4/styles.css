@@ -1,0 +1,31 @@
+body{
+	background-color: #CF5731;
+}
+.hotCheetos{
+	position: absolute;
+	z-index: 10;
+	width: 80px;
+	height: 80px;
+	background: url('hot.png');
+	background-size: 80px 80px;
+	
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#gameWindow{
+	position: relative;
+	border-style: solid;
+	border-width: 15px;
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: #ECEE36;
+	overflow: hidden;
+	cursor: url(hand.gif) 16 16 , hand;
+}
+header{
+	color: #dd8647;
+	text-shadow: 2px 2px #91E296;
+}
