@@ -1,0 +1,19 @@
+body{
+    background-color: #AA82AB;
+    color: purple;
+    text-align: center;
+}
+#form{
+    background-color: #E7C0E8;
+}
+h1{
+    background-color: #400742;
+    color: #E7C0E8;
+    text-shadow: 2px 2px #AA82AB;
+}
+header{
+    text-align: center; 
+}
+footer{
+    background-color: #400742;
+}
