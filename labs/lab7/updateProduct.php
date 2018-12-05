@@ -8,11 +8,13 @@ validateSession();
 
 
 if (isset($_GET['updateProduct'])){  //user has submitted update form
-    $productName = $_GET['productName'];
-    $description = $_GET['description'];
-    $price =  $_GET['price'];
-    $catId =  $_GET['catId'];
-    $image = $_GET['productImage'];
+    
+    $np = array();
+    $np[":productName"] = $_GET['productName'];
+    $np[":productDescription"] = $_GET['description'];
+    $np[":productImage"] = $image;
+    $np[":price"] = $_GET['price'];
+    $np[":catId"] = $_GET['catId'];
     
     $sql = "UPDATE om_product 
             SET productName= :productName,
@@ -21,7 +23,9 @@ if (isset($_GET['updateProduct'])){  //user has submitted update form
                catId = :catId,
                productImage = :productImage
             WHERE productId = " . $_GET['productId'];
-         
+    
+    $stmt = $dbConn->prepare($sql);
+    $stmt->execute($np);       
     
 }
 
@@ -51,7 +55,8 @@ if (isset($_GET['productId'])) {
             <input type="hidden" name="productId" value="<?=$productInfo['productId']?>">
            Product name: <input type="text" name="productName" value="<?=$productInfo['productName']?>"><br>
            Description: <textarea name="description" cols="50" rows="4"> <?=$productInfo['productDescription']?> </textarea><br>
-           Price: <input type="text" name="price" value="<?=$productInfo['price']?>"><br>
+           Price: <input type="text" name="price" value="<?php echo $productInfo['price']?>"><br>
+           
            Category: 
            <select name="catId">
               <option value="">Select One</option>
