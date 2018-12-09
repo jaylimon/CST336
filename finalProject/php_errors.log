@@ -1,0 +1,126 @@
+[09-Dec-2018 09:22:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST336/finalProject/api/getProd.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProd.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProd.php on line 8
+[09-Dec-2018 09:24:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST336/finalProject/api/getProd.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProd.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProd.php on line 8
+[09-Dec-2018 09:25:57 UTC] PHP Warning:  include(../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/finalProject/api/getProd.php on line 2
+[09-Dec-2018 09:25:57 UTC] PHP Stack trace:
+[09-Dec-2018 09:25:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/finalProject/api/getProd.php:0
+[09-Dec-2018 09:25:57 UTC] PHP Warning:  include(): Failed opening '../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/finalProject/api/getProd.php on line 2
+[09-Dec-2018 09:25:57 UTC] PHP Stack trace:
+[09-Dec-2018 09:25:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/finalProject/api/getProd.php:0
+[09-Dec-2018 09:25:57 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/CST336/finalProject/api/getProd.php on line 3
+[09-Dec-2018 09:25:57 UTC] PHP Stack trace:
+[09-Dec-2018 09:25:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/finalProject/api/getProd.php:0
+[09-Dec-2018 09:26:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST336/finalProject/api/getProd.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProd.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProd.php on line 7
+[09-Dec-2018 09:28:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 7
+[09-Dec-2018 09:28:35 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 2
+[09-Dec-2018 09:28:35 UTC] PHP Stack trace:
+[09-Dec-2018 09:28:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:0
+[09-Dec-2018 09:28:35 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 2
+[09-Dec-2018 09:28:35 UTC] PHP Stack trace:
+[09-Dec-2018 09:28:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:0
+[09-Dec-2018 09:28:35 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 3
+[09-Dec-2018 09:28:35 UTC] PHP Stack trace:
+[09-Dec-2018 09:28:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:0
+[09-Dec-2018 09:29:21 UTC] PHP Warning:  include(../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 2
+[09-Dec-2018 09:29:21 UTC] PHP Stack trace:
+[09-Dec-2018 09:29:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:0
+[09-Dec-2018 09:29:21 UTC] PHP Warning:  include(): Failed opening '../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 2
+[09-Dec-2018 09:29:21 UTC] PHP Stack trace:
+[09-Dec-2018 09:29:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:0
+[09-Dec-2018 09:29:21 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 3
+[09-Dec-2018 09:29:21 UTC] PHP Stack trace:
+[09-Dec-2018 09:29:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:0
+[09-Dec-2018 09:29:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 7
+[09-Dec-2018 09:31:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'otterclothes.oc_products' doesn't exist' in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 7
+[09-Dec-2018 09:33:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'otterclothes.oc_products' doesn't exist' in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 7
+[09-Dec-2018 09:33:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 7
+[09-Dec-2018 09:34:05 UTC] PHP Warning:  include(../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 2
+[09-Dec-2018 09:34:05 UTC] PHP Stack trace:
+[09-Dec-2018 09:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:0
+[09-Dec-2018 09:34:05 UTC] PHP Warning:  include(): Failed opening '../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 2
+[09-Dec-2018 09:34:05 UTC] PHP Stack trace:
+[09-Dec-2018 09:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:0
+[09-Dec-2018 09:34:05 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 3
+[09-Dec-2018 09:34:05 UTC] PHP Stack trace:
+[09-Dec-2018 09:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:0
+[09-Dec-2018 09:34:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 7
+[09-Dec-2018 09:37:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'otterclothes.oc_products' doesn't exist' in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 7
+[09-Dec-2018 09:37:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'otterclothes.oc_products' doesn't exist' in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 7
+[09-Dec-2018 09:48:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 7
+[09-Dec-2018 09:49:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 7
+[09-Dec-2018 09:50:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 7
+[09-Dec-2018 09:50:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 7
+[09-Dec-2018 09:50:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 7
+[09-Dec-2018 09:50:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 7
+[09-Dec-2018 09:54:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/finalProject/api/getProduct.php on line 7
