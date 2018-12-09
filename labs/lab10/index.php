@@ -16,6 +16,11 @@
             body {
                 text-align: center;
                 background-color: pink;
+                
+            }
+           #carouselExampleIndicators{
+                 width:500px;
+                 margin:0 auto; 
             }
         </style>
    
