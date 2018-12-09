@@ -1,0 +1,12 @@
+#indexBody, #adminBody{
+     text-align:center;
+     color: #E88E7D;
+     background-color: #F3D9D4;
+ }
+ h2, h4{
+    color: #E88E7D;
+ }
+ h1{
+     color: #E88E7D;
+     text-shadow: 2px 2px #9D8A54;
+ }
