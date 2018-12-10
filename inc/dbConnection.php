@@ -44,4 +44,26 @@ function newMidterm($dbname="midterm2") {
     
     return $dbConn;
 }
+function otterShoe($dbname="ottershoe") {
+    //Creating database connection
+    $host = "localhost";
+//  $dbname = "ottersho";
+    $username = "root";
+    $password = "";
+    $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    
+    return $dbConn;
+}
+function otterClothes($dbname="otterclothes") {
+    //Creating database connection
+    $host = "localhost";
+//  $dbname = "ottercloth";
+    $username = "root";
+    $password = "";
+    $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    
+    return $dbConn;
+}
 ?>
