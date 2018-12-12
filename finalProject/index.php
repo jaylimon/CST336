@@ -53,7 +53,9 @@
   if (!empty($product)){
 
           $sql .=  " AND productName LIKE :product OR productDescription LIKE :product";
+
           $namedParameters[':product'] = "%$product%";
+          $namedParameters[':order'] = $_GET['order'] ;
      }  
    if (!empty($_GET['brand'])){
 
@@ -70,6 +72,7 @@
           $sql .=  " AND genderId =  :gender";
            $namedParameters[':gender'] = $_GET['gender'] ;
      }
+     $sql .= " ORDER BY productName " . $_GET["order"];
      
      $stmt = $dbConn->prepare($sql);
      $stmt->execute($namedParameters);
@@ -127,7 +130,11 @@
                 <option value=""> Select one </option>  
                 <?=displayGender()?>
              </select>
-
+             <br>
+             Select Order:
+             <input type = "radio" name = "order" value = "ASC" > A-Z </input>
+             <input type = "radio" name = "order" value = "DESC"> Z-A </input>
+            
              <input type="submit" name="searchForm" value="Search"/>
          </form>
          <br>

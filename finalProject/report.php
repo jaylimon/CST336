@@ -1,10 +1,7 @@
-
 <?php
 session_start();
-
 include '../inc/dbConnection.php';
 $dbConn = startConnection("otterclothes");
-
 function getAllProducts(){
     global $dbConn;
     $sql= "SELECT productId, productName from oc_product ORDER BY productName";
@@ -21,7 +18,6 @@ function displayAvg(){
     $stmt = $dbConn->prepare($sql);
     $stmt->execute();
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC); //we're expecting multiple records
-
     foreach ($records as $record) {
         
         echo " $ " . $record['avg_price'] . "<br>";
@@ -35,7 +31,6 @@ function displaySum(){
     $stmt = $dbConn->prepare($sql);
     $stmt->execute();
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC); //we're expecting multiple records
-
     foreach ($records as $record) {
         
         echo " $ " . $record['avg_price'] . "<br>";
@@ -49,7 +44,6 @@ function displayMax(){
     $stmt = $dbConn->prepare($sql);
     $stmt->execute();
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC); //we're expecting multiple records
-
     foreach ($records as $record) {
         
         echo " $ " . $record['avg_price'] . "<br>";
@@ -63,13 +57,11 @@ function displayMin(){
     $stmt = $dbConn->prepare($sql);
     $stmt->execute();
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC); //we're expecting multiple records
-
     foreach ($records as $record) {
         
         echo " $ " . $record['avg_price'] . "<br>";
         
     }
-
 }
 ?>
 
@@ -117,10 +109,8 @@ function displayMin(){
 	  <script>
 	      $('document').ready(function() {
 	          $('.productLink').click(function() {
-
 	              $('#productModal').modal("show");
 	              $.ajax({
-
                     type: "GET",
                     url: "api/getProduct.php",
                     dataType: "json",
@@ -134,7 +124,7 @@ function displayMin(){
 	          }); // ajax closing
 	          
 	         
-	          }); // plink click
+	          }); // productlink click
 	          
 	      }); // doc end
 	  </script>
